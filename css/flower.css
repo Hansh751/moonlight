@@ -19,7 +19,7 @@ body{
     flex-direction: column; /* Change the direction to column */
     align-items: center;
     justify-content: flex-start; /* Align items to the start of the container */
-    overflow: auto;
+    overflow: hidden;
 	color: #FF9494;
 	font-family: courier;
 }
@@ -45,7 +45,6 @@ body{
 
 .flower{
     position: relative;
-    min-height: 100vh;
 }
 
 .flower__glass{
@@ -372,9 +371,4 @@ body{
         transform-origin: center;
         transform:translate(-36vmin,1.1vmin) rotateY(-80deg) rotateX(35deg);
     }
-}
-body::after{
-    content: "";
-    display: block;
-    height: 300px;
 }

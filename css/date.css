@@ -63,3 +63,14 @@ input[type="date"] {
   border-radius: 12px;
   border: 2px solid #ffe3e1;
 }
+.button-link {
+  display: block;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.button {
+  position: relative;
+  z-index: 10;
+  cursor: pointer;
+}

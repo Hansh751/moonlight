@@ -19,7 +19,7 @@ body{
     flex-direction: column; /* Change the direction to column */
     align-items: center;
     justify-content: flex-start; /* Align items to the start of the container */
-    overflow: hidden;
+    overflow-y: auto;
 	color: #FF9494;
 	font-family: courier;
 }
